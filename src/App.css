@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Main background */
+
+.app {
+  min-height: 100vh;
+  background: #f2f2f2;
+  padding: 40px 20px;
+}
+
+/* Main container */
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+/* Add task */
+
+.add-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.add-form input {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.add-form button {
+  padding: 12px 20px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Statistics */
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.stats h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.stats p {
+  margin: 5px;
+}
+
+/* Todo */
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 12px;
+
+  margin: 10px 0;
+
+  border: 1px solid #ddd;
+
+  border-radius: 8px;
+
+  transition: 0.3s;
+}
+
+/* Checkbox + text */
+
+.todo-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.todo-left input {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+/* ⭐ Completed task */
+
+.completed-task {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+/* Delete */
+
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+
+  border: none;
+
+  padding: 8px 12px;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+}
+
+/* Theme */
+
+.theme-btn {
+  padding: 8px 12px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+/* Empty */
+
+.empty {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Dark mode */
+
+.dark {
+  min-height: 100vh;
+  background: #222;
+  color: white;
+}
+
+.dark .container {
+  background: #333;
+}
+
+.dark .todo-item {
+  border-color: #555;
+}
+
+.dark .add-form input {
+  background: #444;
+  color: white;
+  border-color: #666;
+}
