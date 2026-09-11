@@ -1,0 +1,20 @@
+todo-app/
+├── eslint.config.js
+├── index.html
+├── package.json
+├── README.md
+├── tsconfig.json
+├── vite.config.js
+├── public/
+└── src/
+    ├── App.css
+    ├── App.jsx
+    ├── index.css
+    ├── main.jsx
+    ├── assets/
+    ├── components/
+    │   ├── AddTodo.jsx
+    │   ├── TodoItem.jsx
+    │   └── TodoList.jsx
+    └── context/
+        └── TodoContext.jsx
