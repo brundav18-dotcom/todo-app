@@ -2,7 +2,7 @@
   "name": "todo-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://brundav18-dotcom.github.io/todo-app-with-tsx/",
+  "homepage": "https://brundav18-dotcom.github.io/todo-app/",
   "type": "module",
   "scripts": {
     "dev": "vite",
